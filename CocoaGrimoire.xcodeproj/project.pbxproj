@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		41668A1025D4F68C00FCBC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A0F25D4F68C00FCBC8A /* AppDelegate.swift */; };
-		41668A1225D4F68C00FCBC8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A1125D4F68C00FCBC8A /* ViewController.swift */; };
+		41668A1225D4F68C00FCBC8A /* CocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A1125D4F68C00FCBC8A /* CocoaViewController.swift */; };
 		41668A1425D4F68E00FCBC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41668A1325D4F68E00FCBC8A /* Assets.xcassets */; };
 		41668A1725D4F68E00FCBC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41668A1525D4F68E00FCBC8A /* Main.storyboard */; };
 		41668A2325D4F68E00FCBC8A /* CocoaGrimoireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A2225D4F68E00FCBC8A /* CocoaGrimoireTests.swift */; };
 		41668A2E25D4F68E00FCBC8A /* CocoaGrimoireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A2D25D4F68E00FCBC8A /* CocoaGrimoireUITests.swift */; };
+		41668A4025D4FCE500FCBC8A /* SwiftSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A3F25D4FCE500FCBC8A /* SwiftSpellBook */; };
+		41668A5225D4FED600FCBC8A /* CocoaSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A5125D4FED600FCBC8A /* CocoaSpellBook */; };
+		41668A5B25D5082F00FCBC8A /* PreferencesSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A5A25D5082F00FCBC8A /* PreferencesSpellBook */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		41668A0C25D4F68C00FCBC8A /* CocoaGrimoire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaGrimoire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41668A0F25D4F68C00FCBC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41668A1125D4F68C00FCBC8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41668A1125D4F68C00FCBC8A /* CocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaViewController.swift; sourceTree = "<group>"; };
 		41668A1325D4F68E00FCBC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41668A1625D4F68E00FCBC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41668A1825D4F68E00FCBC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		41668A2925D4F68E00FCBC8A /* CocoaGrimoireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaGrimoireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41668A2D25D4F68E00FCBC8A /* CocoaGrimoireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaGrimoireUITests.swift; sourceTree = "<group>"; };
 		41668A2F25D4F68E00FCBC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41668A4425D4FD0A00FCBC8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41668A5B25D5082F00FCBC8A /* PreferencesSpellBook in Frameworks */,
+				41668A5225D4FED600FCBC8A /* CocoaSpellBook in Frameworks */,
+				41668A4025D4FCE500FCBC8A /* SwiftSpellBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,7 @@
 		41668A0325D4F68C00FCBC8A = {
 			isa = PBXGroup;
 			children = (
+				41668A4425D4FD0A00FCBC8A /* README.md */,
 				41668A0E25D4F68C00FCBC8A /* CocoaGrimoire */,
 				41668A2125D4F68E00FCBC8A /* CocoaGrimoireTests */,
 				41668A2C25D4F68E00FCBC8A /* CocoaGrimoireUITests */,
@@ -97,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				41668A0F25D4F68C00FCBC8A /* AppDelegate.swift */,
-				41668A1125D4F68C00FCBC8A /* ViewController.swift */,
+				41668A1125D4F68C00FCBC8A /* CocoaViewController.swift */,
 				41668A1325D4F68E00FCBC8A /* Assets.xcassets */,
 				41668A1525D4F68E00FCBC8A /* Main.storyboard */,
 				41668A1825D4F68E00FCBC8A /* Info.plist */,
@@ -140,6 +148,11 @@
 			dependencies = (
 			);
 			name = CocoaGrimoire;
+			packageProductDependencies = (
+				41668A3F25D4FCE500FCBC8A /* SwiftSpellBook */,
+				41668A5125D4FED600FCBC8A /* CocoaSpellBook */,
+				41668A5A25D5082F00FCBC8A /* PreferencesSpellBook */,
+			);
 			productName = CocoaGrimoire;
 			productReference = 41668A0C25D4F68C00FCBC8A /* CocoaGrimoire.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +224,11 @@
 				Base,
 			);
 			mainGroup = 41668A0325D4F68C00FCBC8A;
+			packageReferences = (
+				41668A3E25D4FCE500FCBC8A /* XCRemoteSwiftPackageReference "SwiftSpellBook" */,
+				41668A5025D4FED600FCBC8A /* XCRemoteSwiftPackageReference "CocoaSpellBook" */,
+				41668A5925D5082F00FCBC8A /* XCRemoteSwiftPackageReference "PreferencesSpellBook" */,
+			);
 			productRefGroup = 41668A0D25D4F68C00FCBC8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41668A1225D4F68C00FCBC8A /* ViewController.swift in Sources */,
+				41668A1225D4F68C00FCBC8A /* CocoaViewController.swift in Sources */,
 				41668A1025D4F68C00FCBC8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +600,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41668A3E25D4FCE500FCBC8A /* XCRemoteSwiftPackageReference "SwiftSpellBook" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/SwiftSpellBook.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+		41668A5025D4FED600FCBC8A /* XCRemoteSwiftPackageReference "CocoaSpellBook" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/CocoaSpellBook.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+		41668A5925D5082F00FCBC8A /* XCRemoteSwiftPackageReference "PreferencesSpellBook" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/PreferencesSpellBook.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41668A3F25D4FCE500FCBC8A /* SwiftSpellBook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41668A3E25D4FCE500FCBC8A /* XCRemoteSwiftPackageReference "SwiftSpellBook" */;
+			productName = SwiftSpellBook;
+		};
+		41668A5125D4FED600FCBC8A /* CocoaSpellBook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41668A5025D4FED600FCBC8A /* XCRemoteSwiftPackageReference "CocoaSpellBook" */;
+			productName = CocoaSpellBook;
+		};
+		41668A5A25D5082F00FCBC8A /* PreferencesSpellBook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41668A5925D5082F00FCBC8A /* XCRemoteSwiftPackageReference "PreferencesSpellBook" */;
+			productName = PreferencesSpellBook;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41668A0425D4F68C00FCBC8A /* Project object */;
 }

@@ -19,6 +19,25 @@ A Macintosh example program using the PreferencesSpellBook swift package.
     
 ## SpellBooks
 
+SpellBooks are various swift package created for Mac & iOS development.  Rather than have demo app for each spellbook, CocoaGrimoire provides examples of the code use for all the packages.  Check the SpellBook for inline documentation of each call.
+
+### SwiftSpellBook
+
+Swift Package of useful tools for Swift Development on any platform.  CocoaGrimoire has Unit Tests for most of the featuers.
+
+    https://github.com/magesteve/SwiftSpellBook.git
+
+### CocoaSpellBook
+
+Swift Package of useful tools for Swift Development on Macintosh (Cocoa) Platforms.  The CocoaSpellBook window displays various funcitons and alerts are invoked, as well as background color views.
+
+    https://github.com/magesteve/CocoaSpellBook.git
+
+### PreferencesSpellBook
+
+Swift Package to provide standard Preference window functionality. The AppDelegate sets up the Preference window, as well as has the action to display it.  The Preference panes are for display purposes only (no functionality).
+
+    https://github.com/magesteve/PreferencesSpellBook.git
 
 ## License
 
