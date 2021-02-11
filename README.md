@@ -39,6 +39,12 @@ Swift Package to provide standard Preference window functionality. The AppDelega
 
     https://github.com/magesteve/PreferencesSpellBook.git
 
+### SlamTaskSpellBook
+
+Swift Package of Closure based Tasks, used by Menus, Toolbars & Buttons for Macintosh App development (Cocoa).  AppsController, ViewController & WindowControllers can register specific Tasks. New Buttons, MenuItems & ToolbarItems which can be set within Interface Builder (but do not require associated IBAction) will then use the Tasks closures to perform a task and update their appearance.
+
+    https://github.com/magesteve/SlamTaskSpellBook.git
+
 ## License
 
 PreferencesSpellBook-Demo is available as open source under the terms of the [MIT](https://github.com/magesteve/CocoaGrimoire/blob/main/LICENSE) License.

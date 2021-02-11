@@ -11,6 +11,54 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
+                            <menuItem title="CocoaGrimoire" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="CocoaGrimoire" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About CocoaGrimoire" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
+                                            <connections>
+                                                <action selector="preferenceAction:" target="Voe-Tx-rLC" id="dJC-UQ-HGo"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Services" id="NMo-om-nkz">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                                        <menuItem title="Hide CocoaGrimoire" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit CocoaGrimoire" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
                             <menuItem title="File" id="dMs-cI-mzQ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="File" id="bib-Uj-vzu">
@@ -60,6 +108,19 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="aJh-i4-bef"/>
+                                        <menuItem title="Save Test TXT File" id="XEi-vT-Ua4" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="savetext"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="Examine TXT File" id="VRN-I6-By2" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="opentext"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="LVI-TK-Spc"/>
                                         <menuItem title="Page Setup…" keyEquivalent="P" id="qIS-W8-SiK">
                                             <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                             <connections>
@@ -289,6 +350,48 @@
                                                     </menuItem>
                                                 </items>
                                             </menu>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Web" id="Lym-xF-w5X">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Web" id="LUS-t0-FBp">
+                                    <items>
+                                        <menuItem title="CocoaGrimoire" id="swi-J2-byE" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/CocoaGrimoire"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="SwiftSpellBook" id="vCr-2U-RtC" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/SwiftSpellBook.git"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="CocoaSpellBook" id="avZ-V0-dZk" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/CocoaSpellBook.git"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="PreferencesSpellBook" id="SK3-SZ-anO" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/PreferencesSpellBook.git"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="SlamTaskSpellBook" id="AdK-KX-qNi" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/SlamTaskSpellBook.git"/>
+                                            </userDefinedRuntimeAttributes>
                                         </menuItem>
                                     </items>
                                 </menu>
@@ -634,7 +737,7 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="76" y="-44"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -643,7 +746,7 @@
                     <window key="window" title="CocoaSpellBook" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" resizable="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
                         <value key="minSize" type="size" width="480" height="270"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
@@ -655,12 +758,12 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="66" y="265"/>
         </scene>
-        <!--Cocoa View Controller-->
+        <!--Grimoire View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="CocoaViewController" customModule="CocoaGrimoire" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="GrimoireViewController" customModule="CocoaGrimoire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -674,7 +777,7 @@
                                             <rect key="frame" x="10" y="33" width="434" height="209"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <button verticalHuggingPriority="750" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="eJC-BW-uAY">
+                                                <button verticalHuggingPriority="750" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="eJC-BW-uAY" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
                                                     <rect key="frame" x="10" y="162" width="124" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="110" id="guT-to-ZXI"/>
@@ -683,11 +786,12 @@
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
-                                                    <connections>
-                                                        <action selector="buttonAction:" target="XfG-lQ-9wD" id="daf-vf-s9u"/>
-                                                    </connections>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://www.apple.com"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </button>
-                                                <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="BKb-gJ-zLt">
+                                                <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="BKb-gJ-zLt" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
                                                     <rect key="frame" x="10" y="130" width="124" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="110" id="RV2-52-DgB"/>
@@ -696,11 +800,11 @@
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
-                                                    <connections>
-                                                        <action selector="buttonAction:" target="XfG-lQ-9wD" id="Dwx-9S-mJS"/>
-                                                    </connections>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="savetext"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </button>
-                                                <button verticalHuggingPriority="750" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Gdf-5F-h6X">
+                                                <button verticalHuggingPriority="750" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Gdf-5F-h6X" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
                                                     <rect key="frame" x="10" y="98" width="124" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="110" id="LQt-dz-6a4"/>
@@ -709,9 +813,9 @@
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
-                                                    <connections>
-                                                        <action selector="buttonAction:" target="XfG-lQ-9wD" id="XV7-kl-1Z6"/>
-                                                    </connections>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="opentext"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </button>
                                             </subviews>
                                             <constraints>

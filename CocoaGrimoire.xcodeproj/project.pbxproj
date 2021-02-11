@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		41668A1025D4F68C00FCBC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A0F25D4F68C00FCBC8A /* AppDelegate.swift */; };
-		41668A1225D4F68C00FCBC8A /* CocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A1125D4F68C00FCBC8A /* CocoaViewController.swift */; };
+		41668A1225D4F68C00FCBC8A /* GrimoireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A1125D4F68C00FCBC8A /* GrimoireViewController.swift */; };
 		41668A1425D4F68E00FCBC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41668A1325D4F68E00FCBC8A /* Assets.xcassets */; };
 		41668A1725D4F68E00FCBC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41668A1525D4F68E00FCBC8A /* Main.storyboard */; };
 		41668A2325D4F68E00FCBC8A /* CocoaGrimoireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41668A2225D4F68E00FCBC8A /* CocoaGrimoireTests.swift */; };
@@ -16,6 +16,7 @@
 		41668A4025D4FCE500FCBC8A /* SwiftSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A3F25D4FCE500FCBC8A /* SwiftSpellBook */; };
 		41668A5225D4FED600FCBC8A /* CocoaSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A5125D4FED600FCBC8A /* CocoaSpellBook */; };
 		41668A5B25D5082F00FCBC8A /* PreferencesSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A5A25D5082F00FCBC8A /* PreferencesSpellBook */; };
+		41668A6125D5E76D00FCBC8A /* SlamTaskSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A6025D5E76D00FCBC8A /* SlamTaskSpellBook */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		41668A0C25D4F68C00FCBC8A /* CocoaGrimoire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaGrimoire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41668A0F25D4F68C00FCBC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41668A1125D4F68C00FCBC8A /* CocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaViewController.swift; sourceTree = "<group>"; };
+		41668A1125D4F68C00FCBC8A /* GrimoireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrimoireViewController.swift; sourceTree = "<group>"; };
 		41668A1325D4F68E00FCBC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41668A1625D4F68E00FCBC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41668A1825D4F68E00FCBC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41668A6125D5E76D00FCBC8A /* SlamTaskSpellBook in Frameworks */,
 				41668A5B25D5082F00FCBC8A /* PreferencesSpellBook in Frameworks */,
 				41668A5225D4FED600FCBC8A /* CocoaSpellBook in Frameworks */,
 				41668A4025D4FCE500FCBC8A /* SwiftSpellBook in Frameworks */,
@@ -105,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				41668A0F25D4F68C00FCBC8A /* AppDelegate.swift */,
-				41668A1125D4F68C00FCBC8A /* CocoaViewController.swift */,
+				41668A1125D4F68C00FCBC8A /* GrimoireViewController.swift */,
 				41668A1325D4F68E00FCBC8A /* Assets.xcassets */,
 				41668A1525D4F68E00FCBC8A /* Main.storyboard */,
 				41668A1825D4F68E00FCBC8A /* Info.plist */,
@@ -152,6 +154,7 @@
 				41668A3F25D4FCE500FCBC8A /* SwiftSpellBook */,
 				41668A5125D4FED600FCBC8A /* CocoaSpellBook */,
 				41668A5A25D5082F00FCBC8A /* PreferencesSpellBook */,
+				41668A6025D5E76D00FCBC8A /* SlamTaskSpellBook */,
 			);
 			productName = CocoaGrimoire;
 			productReference = 41668A0C25D4F68C00FCBC8A /* CocoaGrimoire.app */;
@@ -228,6 +231,7 @@
 				41668A3E25D4FCE500FCBC8A /* XCRemoteSwiftPackageReference "SwiftSpellBook" */,
 				41668A5025D4FED600FCBC8A /* XCRemoteSwiftPackageReference "CocoaSpellBook" */,
 				41668A5925D5082F00FCBC8A /* XCRemoteSwiftPackageReference "PreferencesSpellBook" */,
+				41668A5F25D5E76C00FCBC8A /* XCRemoteSwiftPackageReference "SlamTaskSpellBook" */,
 			);
 			productRefGroup = 41668A0D25D4F68C00FCBC8A /* Products */;
 			projectDirPath = "";
@@ -271,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41668A1225D4F68C00FCBC8A /* CocoaViewController.swift in Sources */,
+				41668A1225D4F68C00FCBC8A /* GrimoireViewController.swift in Sources */,
 				41668A1025D4F68C00FCBC8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,6 +630,14 @@
 				minimumVersion = 1.0.1;
 			};
 		};
+		41668A5F25D5E76C00FCBC8A /* XCRemoteSwiftPackageReference "SlamTaskSpellBook" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/SlamTaskSpellBook.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -643,6 +655,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 41668A5925D5082F00FCBC8A /* XCRemoteSwiftPackageReference "PreferencesSpellBook" */;
 			productName = PreferencesSpellBook;
+		};
+		41668A6025D5E76D00FCBC8A /* SlamTaskSpellBook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41668A5F25D5E76C00FCBC8A /* XCRemoteSwiftPackageReference "SlamTaskSpellBook" */;
+			productName = SlamTaskSpellBook;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
