@@ -698,6 +698,32 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="View" id="HyV-fh-RgO">
                                     <items>
+                                        <menuItem title="Files Inspector" keyEquivalent="1" id="dnU-fS-9XC" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapleft"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="files"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="JIE-1H-LCv"/>
+                                        <menuItem title="Details Inspector" keyEquivalent="2" id="BWS-0Q-pw1" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapright"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="details"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="Information Inspector" keyEquivalent="3" id="fQI-Pr-lIb" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapright"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="information"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="Developer Inspector" keyEquivalent="4" id="mV1-O1-LVV" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapright"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="developer"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="hB3-LF-h0Y"/>
                                         <menuItem title="Show Toolbar" keyEquivalent="t" id="snW-S8-Cw5">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
@@ -710,7 +736,7 @@
                                                 <action selector="runToolbarCustomizationPalette:" target="Ady-hI-5gd" id="pQI-g3-MTW"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="hB3-LF-h0Y"/>
+                                        <menuItem isSeparatorItem="YES" id="a9H-qz-oYI"/>
                                         <menuItem title="Show Sidebar" keyEquivalent="s" id="kIP-vf-haE">
                                             <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                             <connections>
@@ -791,15 +817,37 @@
                                 <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="n0S-yf-gL0"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="SPh-Md-tyo"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="0qh-zJ-lHw"/>
-                                <toolbarItem implicitItemIdentifier="3E19704B-7333-4D73-AE09-67829F29BFA6" label="Apple" paletteLabel="Apple" tag="-1" image="NSNetwork" sizingBehavior="auto" id="y6c-za-DZ8" customClass="SlamTaskToolbarItem" customModule="SlamTaskSpellBook">
+                                <toolbarItem implicitItemIdentifier="F6DAA07D-1084-48CC-9976-EDC98254F500" label="Files" paletteLabel="Files" tag="-1" image="NSFolder" sizingBehavior="auto" id="4UC-cz-pxB" customClass="SlamTaskToolbarItem" customModule="SlamTaskSpellBook">
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://www.apple.com"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapleft"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="files"/>
+                                    </userDefinedRuntimeAttributes>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="D1E43D0C-A825-4706-9BDF-22193B76E919" label="Details" paletteLabel="Details" tag="-1" image="NSActionTemplate" sizingBehavior="auto" id="lmI-U8-NmL" customClass="SlamTaskToolbarItem" customModule="SlamTaskSpellBook">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapright"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="details"/>
+                                    </userDefinedRuntimeAttributes>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="6C961AD5-DE28-4A26-94EA-7EC60C57B88D" label="Apple" paletteLabel="Apple" tag="-1" image="NSInfo" sizingBehavior="auto" id="Jko-z4-yQV" customClass="SlamTaskToolbarItem" customModule="SlamTaskSpellBook">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapright"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="information"/>
+                                    </userDefinedRuntimeAttributes>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="C97A2D20-3242-40EA-AA76-99ED9D3F93CC" label="Developer" paletteLabel="Developer" tag="-1" image="NSNetwork" sizingBehavior="auto" id="UqD-sW-uFP" customClass="SlamTaskToolbarItem" customModule="SlamTaskSpellBook">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="tapright"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="developer"/>
                                     </userDefinedRuntimeAttributes>
                                 </toolbarItem>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
-                                <toolbarItem reference="y6c-za-DZ8"/>
+                                <toolbarItem reference="4UC-cz-pxB"/>
+                                <toolbarItem reference="SPh-Md-tyo"/>
+                                <toolbarItem reference="lmI-U8-NmL"/>
+                                <toolbarItem reference="Jko-z4-yQV"/>
+                                <toolbarItem reference="UqD-sW-uFP"/>
                             </defaultToolbarItems>
                         </toolbar>
                         <connections>
@@ -822,163 +870,203 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <tabView translatesAutoresizingMaskIntoConstraints="NO" id="11k-b2-6iq">
-                                <rect key="frame" x="13" y="9" width="454" height="255"/>
+                            <tabView type="noTabsNoBorder" translatesAutoresizingMaskIntoConstraints="NO" id="O7c-F4-lLJ">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="oJH-AI-OSs"/>
+                                </constraints>
                                 <font key="font" metaFont="system"/>
-                                <tabViewItems>
-                                    <tabViewItem label="Tasks" identifier="" id="91r-jS-nvX">
-                                        <view key="view" id="oPA-8V-gYV">
-                                            <rect key="frame" x="10" y="33" width="434" height="209"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <subviews>
-                                                <button verticalHuggingPriority="750" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="eJC-BW-uAY" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
-                                                    <rect key="frame" x="10" y="162" width="124" height="32"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="110" id="guT-to-ZXI"/>
-                                                    </constraints>
-                                                    <buttonCell key="cell" type="push" title="Open URL" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LrM-25-MkS">
-                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                        <font key="font" metaFont="system"/>
-                                                    </buttonCell>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://www.apple.com"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="BKb-gJ-zLt" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
-                                                    <rect key="frame" x="10" y="130" width="124" height="32"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="110" id="RV2-52-DgB"/>
-                                                    </constraints>
-                                                    <buttonCell key="cell" type="push" title="Save TXT File" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="K47-Lb-DuY">
-                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                        <font key="font" metaFont="system"/>
-                                                    </buttonCell>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="savetext"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button verticalHuggingPriority="750" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Gdf-5F-h6X" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
-                                                    <rect key="frame" x="10" y="98" width="124" height="32"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="110" id="LQt-dz-6a4"/>
-                                                    </constraints>
-                                                    <buttonCell key="cell" type="push" title="Open TXT File" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5KA-IF-m9N">
-                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                        <font key="font" metaFont="system"/>
-                                                    </buttonCell>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="opentext"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eJC-BW-uAY" secondAttribute="trailing" constant="20" symbolic="YES" id="1wV-Gi-A0J"/>
-                                                <constraint firstItem="Gdf-5F-h6X" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="4SE-xT-EGC"/>
-                                                <constraint firstItem="Gdf-5F-h6X" firstAttribute="top" secondItem="BKb-gJ-zLt" secondAttribute="bottom" constant="12" symbolic="YES" id="CsB-Sg-428"/>
-                                                <constraint firstItem="eJC-BW-uAY" firstAttribute="top" secondItem="oPA-8V-gYV" secondAttribute="top" constant="20" id="EsK-mP-lkW"/>
-                                                <constraint firstItem="BKb-gJ-zLt" firstAttribute="top" secondItem="eJC-BW-uAY" secondAttribute="bottom" constant="12" symbolic="YES" id="N8v-0Z-aN2"/>
-                                                <constraint firstItem="BKb-gJ-zLt" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="p9M-FJ-NR0"/>
-                                                <constraint firstItem="eJC-BW-uAY" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="ykx-za-ehz"/>
-                                            </constraints>
-                                        </view>
-                                    </tabViewItem>
-                                    <tabViewItem label="SpellColorBackgroundView" identifier="" id="Tox-Sg-wrk">
-                                        <view key="view" id="hGZ-0O-VGs">
-                                            <rect key="frame" x="10" y="33" width="434" height="209"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <subviews>
-                                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="x7o-Vq-Q1L" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
-                                                    <rect key="frame" x="17" y="94" width="120" height="71"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="120" id="ZZU-g5-98f"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
-                                                            <color key="value" name="systemRedColor" catalog="System" colorSpace="catalog"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </customView>
-                                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="0Kd-sd-DmS" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
-                                                    <rect key="frame" x="157" y="94" width="120" height="71"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="120" id="4Mb-Gw-ulb"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
-                                                            <color key="value" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </customView>
-                                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="fhy-Lz-iv8" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
-                                                    <rect key="frame" x="297" y="94" width="120" height="71"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="120" id="Bei-Hj-Tqt"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
-                                                            <color key="value" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </customView>
-                                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="6Us-Gr-pmO" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
-                                                    <rect key="frame" x="17" y="12" width="400" height="33"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="33" id="eiU-IW-Zdm"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="darkBackground" value="YES"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </customView>
-                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="97h-Sl-dOz">
-                                                    <rect key="frame" x="47" y="190" width="341" height="16"/>
-                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Change Appearance Light &amp; Dark (System Preferences)" id="K90-Xo-cdY">
-                                                        <font key="font" usesAppearanceFont="YES"/>
-                                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                    </textFieldCell>
-                                                </textField>
-                                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="otu-RS-eCc" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
-                                                    <rect key="frame" x="17" y="53" width="400" height="33"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="33" id="OAC-Ry-b8x"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="normalBackground" value="YES"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </customView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="x7o-Vq-Q1L" firstAttribute="leading" secondItem="hGZ-0O-VGs" secondAttribute="leading" constant="17" id="3dE-bI-AiY"/>
-                                                <constraint firstItem="97h-Sl-dOz" firstAttribute="centerX" secondItem="hGZ-0O-VGs" secondAttribute="centerX" id="59C-G8-Fn0"/>
-                                                <constraint firstAttribute="trailing" secondItem="fhy-Lz-iv8" secondAttribute="trailing" constant="17" id="5hj-BJ-ZW9"/>
-                                                <constraint firstItem="otu-RS-eCc" firstAttribute="top" secondItem="x7o-Vq-Q1L" secondAttribute="bottom" constant="8" symbolic="YES" id="72j-nr-tc3"/>
-                                                <constraint firstItem="6Us-Gr-pmO" firstAttribute="top" secondItem="otu-RS-eCc" secondAttribute="bottom" constant="8" symbolic="YES" id="7Er-a8-CuO"/>
-                                                <constraint firstItem="otu-RS-eCc" firstAttribute="top" secondItem="fhy-Lz-iv8" secondAttribute="bottom" constant="8" symbolic="YES" id="9u6-UH-ms1"/>
-                                                <constraint firstItem="fhy-Lz-iv8" firstAttribute="top" secondItem="97h-Sl-dOz" secondAttribute="bottom" constant="25" id="O4Q-w0-1gC"/>
-                                                <constraint firstItem="otu-RS-eCc" firstAttribute="top" secondItem="0Kd-sd-DmS" secondAttribute="bottom" constant="8" symbolic="YES" id="SO7-mg-KJI"/>
-                                                <constraint firstAttribute="trailing" secondItem="6Us-Gr-pmO" secondAttribute="trailing" constant="17" id="WC8-q3-hzM"/>
-                                                <constraint firstItem="6Us-Gr-pmO" firstAttribute="leading" secondItem="hGZ-0O-VGs" secondAttribute="leading" constant="17" id="Znb-6q-FSx"/>
-                                                <constraint firstAttribute="trailing" secondItem="otu-RS-eCc" secondAttribute="trailing" constant="17" id="aXY-5K-5Er"/>
-                                                <constraint firstAttribute="bottom" secondItem="6Us-Gr-pmO" secondAttribute="bottom" constant="12" id="bnn-dw-8As"/>
-                                                <constraint firstItem="97h-Sl-dOz" firstAttribute="top" secondItem="hGZ-0O-VGs" secondAttribute="top" constant="3" id="cW0-cH-aYr"/>
-                                                <constraint firstItem="otu-RS-eCc" firstAttribute="leading" secondItem="hGZ-0O-VGs" secondAttribute="leading" constant="17" id="cgh-6D-emJ"/>
-                                                <constraint firstItem="0Kd-sd-DmS" firstAttribute="top" secondItem="97h-Sl-dOz" secondAttribute="bottom" constant="25" id="pbN-tZ-TeH"/>
-                                                <constraint firstItem="0Kd-sd-DmS" firstAttribute="centerX" secondItem="hGZ-0O-VGs" secondAttribute="centerX" id="xB4-Rs-IB4"/>
-                                                <constraint firstItem="x7o-Vq-Q1L" firstAttribute="top" secondItem="97h-Sl-dOz" secondAttribute="bottom" constant="25" id="zbq-1K-Och"/>
-                                            </constraints>
-                                        </view>
-                                    </tabViewItem>
-                                </tabViewItems>
                             </tabView>
+                            <tabView type="noTabsNoBorder" translatesAutoresizingMaskIntoConstraints="NO" id="JWa-U6-CjA">
+                                <rect key="frame" x="330" y="0.0" width="150" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="U2K-Qe-mqw"/>
+                                </constraints>
+                                <font key="font" metaFont="system"/>
+                            </tabView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Orf-U8-D4z">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                                <subviews>
+                                    <tabView translatesAutoresizingMaskIntoConstraints="NO" id="11k-b2-6iq">
+                                        <rect key="frame" x="13" y="10" width="454" height="254"/>
+                                        <font key="font" metaFont="system"/>
+                                        <tabViewItems>
+                                            <tabViewItem label="Tasks" identifier="" id="91r-jS-nvX">
+                                                <view key="view" id="oPA-8V-gYV">
+                                                    <rect key="frame" x="10" y="33" width="434" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <button verticalHuggingPriority="750" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="eJC-BW-uAY" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
+                                                            <rect key="frame" x="10" y="161" width="124" height="32"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="110" id="guT-to-ZXI"/>
+                                                            </constraints>
+                                                            <buttonCell key="cell" type="push" title="Open URL" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LrM-25-MkS">
+                                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://www.apple.com"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="BKb-gJ-zLt" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
+                                                            <rect key="frame" x="10" y="129" width="124" height="32"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="110" id="RV2-52-DgB"/>
+                                                            </constraints>
+                                                            <buttonCell key="cell" type="push" title="Save TXT File" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="K47-Lb-DuY">
+                                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="savetext"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button verticalHuggingPriority="750" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Gdf-5F-h6X" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
+                                                            <rect key="frame" x="10" y="97" width="124" height="32"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="110" id="LQt-dz-6a4"/>
+                                                            </constraints>
+                                                            <buttonCell key="cell" type="push" title="Open TXT File" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5KA-IF-m9N">
+                                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="opentext"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eJC-BW-uAY" secondAttribute="trailing" constant="20" symbolic="YES" id="1wV-Gi-A0J"/>
+                                                        <constraint firstItem="Gdf-5F-h6X" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="4SE-xT-EGC"/>
+                                                        <constraint firstItem="Gdf-5F-h6X" firstAttribute="top" secondItem="BKb-gJ-zLt" secondAttribute="bottom" constant="12" symbolic="YES" id="CsB-Sg-428"/>
+                                                        <constraint firstItem="eJC-BW-uAY" firstAttribute="top" secondItem="oPA-8V-gYV" secondAttribute="top" constant="20" id="EsK-mP-lkW"/>
+                                                        <constraint firstItem="BKb-gJ-zLt" firstAttribute="top" secondItem="eJC-BW-uAY" secondAttribute="bottom" constant="12" symbolic="YES" id="N8v-0Z-aN2"/>
+                                                        <constraint firstItem="BKb-gJ-zLt" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="p9M-FJ-NR0"/>
+                                                        <constraint firstItem="eJC-BW-uAY" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="ykx-za-ehz"/>
+                                                    </constraints>
+                                                </view>
+                                            </tabViewItem>
+                                            <tabViewItem label="SpellColorBackgroundView" identifier="" id="Tox-Sg-wrk">
+                                                <view key="view" id="hGZ-0O-VGs">
+                                                    <rect key="frame" x="10" y="33" width="434" height="209"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="x7o-Vq-Q1L" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
+                                                            <rect key="frame" x="17" y="94" width="120" height="71"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="120" id="ZZU-g5-98f"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
+                                                                    <color key="value" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </customView>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="0Kd-sd-DmS" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
+                                                            <rect key="frame" x="157" y="94" width="120" height="71"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="120" id="4Mb-Gw-ulb"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
+                                                                    <color key="value" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </customView>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="fhy-Lz-iv8" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
+                                                            <rect key="frame" x="297" y="94" width="120" height="71"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="120" id="Bei-Hj-Tqt"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
+                                                                    <color key="value" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </customView>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="6Us-Gr-pmO" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
+                                                            <rect key="frame" x="17" y="12" width="400" height="33"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="33" id="eiU-IW-Zdm"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="darkBackground" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </customView>
+                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="97h-Sl-dOz">
+                                                            <rect key="frame" x="47" y="190" width="341" height="16"/>
+                                                            <textFieldCell key="cell" lineBreakMode="clipping" title="Change Appearance Light &amp; Dark (System Preferences)" id="K90-Xo-cdY">
+                                                                <font key="font" usesAppearanceFont="YES"/>
+                                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="otu-RS-eCc" customClass="SpellColorBackgroundView" customModule="CocoaSpellBook">
+                                                            <rect key="frame" x="17" y="53" width="400" height="33"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="33" id="OAC-Ry-b8x"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="normalBackground" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </customView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="x7o-Vq-Q1L" firstAttribute="leading" secondItem="hGZ-0O-VGs" secondAttribute="leading" constant="17" id="3dE-bI-AiY"/>
+                                                        <constraint firstItem="97h-Sl-dOz" firstAttribute="centerX" secondItem="hGZ-0O-VGs" secondAttribute="centerX" id="59C-G8-Fn0"/>
+                                                        <constraint firstAttribute="trailing" secondItem="fhy-Lz-iv8" secondAttribute="trailing" constant="17" id="5hj-BJ-ZW9"/>
+                                                        <constraint firstItem="otu-RS-eCc" firstAttribute="top" secondItem="x7o-Vq-Q1L" secondAttribute="bottom" constant="8" symbolic="YES" id="72j-nr-tc3"/>
+                                                        <constraint firstItem="6Us-Gr-pmO" firstAttribute="top" secondItem="otu-RS-eCc" secondAttribute="bottom" constant="8" symbolic="YES" id="7Er-a8-CuO"/>
+                                                        <constraint firstItem="otu-RS-eCc" firstAttribute="top" secondItem="fhy-Lz-iv8" secondAttribute="bottom" constant="8" symbolic="YES" id="9u6-UH-ms1"/>
+                                                        <constraint firstItem="fhy-Lz-iv8" firstAttribute="top" secondItem="97h-Sl-dOz" secondAttribute="bottom" constant="25" id="O4Q-w0-1gC"/>
+                                                        <constraint firstItem="otu-RS-eCc" firstAttribute="top" secondItem="0Kd-sd-DmS" secondAttribute="bottom" constant="8" symbolic="YES" id="SO7-mg-KJI"/>
+                                                        <constraint firstAttribute="trailing" secondItem="6Us-Gr-pmO" secondAttribute="trailing" constant="17" id="WC8-q3-hzM"/>
+                                                        <constraint firstItem="6Us-Gr-pmO" firstAttribute="leading" secondItem="hGZ-0O-VGs" secondAttribute="leading" constant="17" id="Znb-6q-FSx"/>
+                                                        <constraint firstAttribute="trailing" secondItem="otu-RS-eCc" secondAttribute="trailing" constant="17" id="aXY-5K-5Er"/>
+                                                        <constraint firstAttribute="bottom" secondItem="6Us-Gr-pmO" secondAttribute="bottom" constant="12" id="bnn-dw-8As"/>
+                                                        <constraint firstItem="97h-Sl-dOz" firstAttribute="top" secondItem="hGZ-0O-VGs" secondAttribute="top" constant="3" id="cW0-cH-aYr"/>
+                                                        <constraint firstItem="otu-RS-eCc" firstAttribute="leading" secondItem="hGZ-0O-VGs" secondAttribute="leading" constant="17" id="cgh-6D-emJ"/>
+                                                        <constraint firstItem="0Kd-sd-DmS" firstAttribute="top" secondItem="97h-Sl-dOz" secondAttribute="bottom" constant="25" id="pbN-tZ-TeH"/>
+                                                        <constraint firstItem="0Kd-sd-DmS" firstAttribute="centerX" secondItem="hGZ-0O-VGs" secondAttribute="centerX" id="xB4-Rs-IB4"/>
+                                                        <constraint firstItem="x7o-Vq-Q1L" firstAttribute="top" secondItem="97h-Sl-dOz" secondAttribute="bottom" constant="25" id="zbq-1K-Och"/>
+                                                    </constraints>
+                                                </view>
+                                            </tabViewItem>
+                                        </tabViewItems>
+                                    </tabView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="11k-b2-6iq" secondAttribute="bottom" constant="20" symbolic="YES" id="3RG-AQ-phc"/>
+                                    <constraint firstItem="11k-b2-6iq" firstAttribute="leading" secondItem="Orf-U8-D4z" secondAttribute="leading" constant="20" symbolic="YES" id="H9A-2v-UIM"/>
+                                    <constraint firstItem="11k-b2-6iq" firstAttribute="top" secondItem="Orf-U8-D4z" secondAttribute="top" constant="20" id="U6y-b9-dtx"/>
+                                    <constraint firstAttribute="trailing" secondItem="11k-b2-6iq" secondAttribute="trailing" constant="20" symbolic="YES" id="mW1-oy-tIF"/>
+                                    <constraint firstAttribute="bottom" secondItem="11k-b2-6iq" secondAttribute="bottom" constant="20" id="mth-mW-Wzf"/>
+                                    <constraint firstAttribute="trailing" secondItem="11k-b2-6iq" secondAttribute="trailing" constant="20" symbolic="YES" id="pxm-l2-k3l"/>
+                                    <constraint firstItem="11k-b2-6iq" firstAttribute="top" secondItem="Orf-U8-D4z" secondAttribute="top" constant="12" symbolic="YES" id="qgW-Lg-dcS"/>
+                                    <constraint firstItem="11k-b2-6iq" firstAttribute="leading" secondItem="Orf-U8-D4z" secondAttribute="leading" constant="20" symbolic="YES" id="z6C-SP-dYg"/>
+                                </constraints>
+                            </customView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="11k-b2-6iq" secondAttribute="trailing" constant="20" symbolic="YES" id="F5k-Mk-pfV"/>
-                            <constraint firstAttribute="bottom" secondItem="11k-b2-6iq" secondAttribute="bottom" constant="19" id="kDK-rn-WTn"/>
-                            <constraint firstItem="11k-b2-6iq" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="lRW-D6-Fy0"/>
-                            <constraint firstItem="11k-b2-6iq" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="12" symbolic="YES" id="p6p-a3-ZBK"/>
+                            <constraint firstItem="JWa-U6-CjA" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="J8M-PL-3cy"/>
+                            <constraint firstAttribute="bottom" secondItem="Orf-U8-D4z" secondAttribute="bottom" id="ONq-BQ-BDg"/>
+                            <constraint firstItem="O7c-F4-lLJ" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Okq-Hj-yLA"/>
+                            <constraint firstAttribute="trailing" secondItem="Orf-U8-D4z" secondAttribute="trailing" id="VXf-hA-fmQ"/>
+                            <constraint firstAttribute="bottom" secondItem="O7c-F4-lLJ" secondAttribute="bottom" id="Vfj-ie-ftG"/>
+                            <constraint firstItem="Orf-U8-D4z" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="ZT3-s9-O0U"/>
+                            <constraint firstItem="Orf-U8-D4z" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="dHB-PS-jWe"/>
+                            <constraint firstAttribute="trailing" secondItem="JWa-U6-CjA" secondAttribute="trailing" id="iou-Ed-iel"/>
+                            <constraint firstAttribute="leading" secondItem="O7c-F4-lLJ" secondAttribute="leading" id="o4p-mr-ezq"/>
+                            <constraint firstAttribute="bottom" secondItem="JWa-U6-CjA" secondAttribute="bottom" id="xVB-MJ-QGb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fileView" destination="O7c-F4-lLJ" id="Vfy-eD-Y6E"/>
+                        <outlet property="mainView" destination="Orf-U8-D4z" id="ZY8-4N-mDo"/>
+                        <outlet property="sideView" destination="JWa-U6-CjA" id="DBT-f3-76s"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1121,8 +1209,246 @@
             </objects>
             <point key="canvasLocation" x="35" y="1012"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="IbL-qE-HLj">
+            <objects>
+                <viewController storyboardIdentifier="details" id="z8u-HX-XEm" sceneMemberID="viewController">
+                    <view key="view" id="RVR-gc-KxX" customClass="ColorBackgroundView" customModule="InspectorLab" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ele-AZ-9OG">
+                                <rect key="frame" x="18" y="234" width="46" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Details" id="vF9-7M-beU">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jzu-oG-S3J">
+                                <rect key="frame" x="93" y="207" width="39" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Alpha" id="XJv-Bp-fa4">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="noE-B0-iUa">
+                                <rect key="frame" x="93" y="177" width="39" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Bravo" id="UA3-li-gOa">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <switch horizontalHuggingPriority="750" verticalHuggingPriority="750" baseWritingDirection="leftToRight" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="O25-u2-Lsh">
+                                <rect key="frame" x="18" y="202" width="42" height="25"/>
+                            </switch>
+                            <switch horizontalHuggingPriority="750" verticalHuggingPriority="750" baseWritingDirection="leftToRight" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="241-KE-lt9">
+                                <rect key="frame" x="18" y="172" width="42" height="25"/>
+                            </switch>
+                            <switch horizontalHuggingPriority="750" verticalHuggingPriority="750" baseWritingDirection="leftToRight" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="Cu0-0p-abj">
+                                <rect key="frame" x="18" y="142" width="42" height="25"/>
+                            </switch>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zEt-7A-vhe">
+                                <rect key="frame" x="85" y="147" width="47" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Charlie" id="aL9-6L-oR3">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="241-KE-lt9" firstAttribute="leading" secondItem="RVR-gc-KxX" secondAttribute="leading" constant="20" symbolic="YES" id="CbJ-i8-m3u"/>
+                            <constraint firstItem="Cu0-0p-abj" firstAttribute="top" secondItem="241-KE-lt9" secondAttribute="bottom" constant="8" symbolic="YES" id="FYy-Yc-YsO"/>
+                            <constraint firstItem="Cu0-0p-abj" firstAttribute="leading" secondItem="RVR-gc-KxX" secondAttribute="leading" constant="20" symbolic="YES" id="Gdp-gb-Wks"/>
+                            <constraint firstItem="noE-B0-iUa" firstAttribute="centerY" secondItem="241-KE-lt9" secondAttribute="centerY" id="Ivl-em-RP2"/>
+                            <constraint firstItem="ele-AZ-9OG" firstAttribute="leading" secondItem="RVR-gc-KxX" secondAttribute="leading" constant="20" symbolic="YES" id="Iwg-XC-dj7"/>
+                            <constraint firstAttribute="trailing" secondItem="zEt-7A-vhe" secondAttribute="trailing" constant="20" symbolic="YES" id="KYX-IC-qZH"/>
+                            <constraint firstItem="241-KE-lt9" firstAttribute="top" secondItem="O25-u2-Lsh" secondAttribute="bottom" constant="8" symbolic="YES" id="LrN-7R-eTV"/>
+                            <constraint firstItem="O25-u2-Lsh" firstAttribute="leading" secondItem="RVR-gc-KxX" secondAttribute="leading" constant="20" symbolic="YES" id="Y9b-dX-emj"/>
+                            <constraint firstItem="ele-AZ-9OG" firstAttribute="top" secondItem="RVR-gc-KxX" secondAttribute="top" constant="20" symbolic="YES" id="Ymx-r2-NAf"/>
+                            <constraint firstItem="Jzu-oG-S3J" firstAttribute="centerY" secondItem="O25-u2-Lsh" secondAttribute="centerY" id="Yzq-MJ-NAE"/>
+                            <constraint firstItem="zEt-7A-vhe" firstAttribute="firstBaseline" secondItem="Cu0-0p-abj" secondAttribute="firstBaseline" id="arC-jb-UUL"/>
+                            <constraint firstItem="O25-u2-Lsh" firstAttribute="top" secondItem="ele-AZ-9OG" secondAttribute="bottom" constant="8" symbolic="YES" id="bXJ-Bg-f5F"/>
+                            <constraint firstAttribute="trailing" secondItem="Jzu-oG-S3J" secondAttribute="trailing" constant="20" symbolic="YES" id="cKP-5o-ONQ"/>
+                            <constraint firstAttribute="trailing" secondItem="noE-B0-iUa" secondAttribute="trailing" constant="20" symbolic="YES" id="hEz-iW-Jut"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
+                                <color key="value" red="1" green="0.5249364594" blue="0.58717676379999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <customObject id="gob-gf-ALQ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="73"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HxZ-57-2ln">
+            <objects>
+                <viewController storyboardIdentifier="developer" id="WLg-Vu-1mv" sceneMemberID="viewController">
+                    <view key="view" id="ddo-em-ED3" customClass="ColorBackgroundView" customModule="InspectorLab" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aZj-sH-Utb">
+                                <rect key="frame" x="18" y="234" width="66" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Developer" id="BiS-lT-LNh">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="zjJ-At-dCI">
+                                <rect key="frame" x="20" y="178" width="112" height="48"/>
+                                <textFieldCell key="cell" selectable="YES" title="This Panels can launch something." id="2vO-vO-xfh">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7iu-KA-0dE" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
+                                <rect key="frame" x="15" y="131" width="122" height="32"/>
+                                <buttonCell key="cell" type="push" title="Goto Apple" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="kYT-RF-94f">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://developer.apple.com"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="aZj-sH-Utb" firstAttribute="leading" secondItem="ddo-em-ED3" secondAttribute="leading" constant="20" symbolic="YES" id="7l9-bS-5SC"/>
+                            <constraint firstItem="zjJ-At-dCI" firstAttribute="top" secondItem="aZj-sH-Utb" secondAttribute="bottom" constant="8" symbolic="YES" id="Ckt-Xg-OHZ"/>
+                            <constraint firstItem="7iu-KA-0dE" firstAttribute="top" secondItem="zjJ-At-dCI" secondAttribute="bottom" constant="20" id="Ndw-5g-FVC"/>
+                            <constraint firstItem="zjJ-At-dCI" firstAttribute="leading" secondItem="ddo-em-ED3" secondAttribute="leading" constant="22" id="Ufz-br-F3r"/>
+                            <constraint firstAttribute="trailing" secondItem="zjJ-At-dCI" secondAttribute="trailing" constant="20" symbolic="YES" id="ZNE-v9-Hcx"/>
+                            <constraint firstAttribute="trailing" secondItem="7iu-KA-0dE" secondAttribute="trailing" constant="20" symbolic="YES" id="cx6-hF-vMS"/>
+                            <constraint firstItem="7iu-KA-0dE" firstAttribute="leading" secondItem="ddo-em-ED3" secondAttribute="leading" constant="22" id="enT-xj-4Oz"/>
+                            <constraint firstItem="aZj-sH-Utb" firstAttribute="top" secondItem="ddo-em-ED3" secondAttribute="top" constant="20" symbolic="YES" id="ngD-Uu-yYi"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
+                                <color key="value" red="0.7016116389" green="0.67363175949999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <customObject id="9Rl-iJ-S08" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1207" y="80"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cbu-9k-kwO">
+            <objects>
+                <viewController storyboardIdentifier="information" id="Mpb-eA-xsY" sceneMemberID="viewController">
+                    <view key="view" misplaced="YES" id="Lq6-0W-wTg" customClass="ColorBackgroundView" customModule="InspectorLab" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="160"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gUU-e3-Krh">
+                                <rect key="frame" x="18" y="124" width="74" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Information" id="8xO-nu-6Tg">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="YdH-3D-J98">
+                                <rect key="frame" x="20" y="20" width="112" height="96"/>
+                                <textFieldCell key="cell" selectable="YES" title="This panel just contains some information that might be important for the document." id="eju-pd-uim">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YdH-3D-J98" secondAttribute="trailing" constant="20" symbolic="YES" id="Fma-2p-O1g"/>
+                            <constraint firstAttribute="bottom" secondItem="YdH-3D-J98" secondAttribute="bottom" constant="20" symbolic="YES" id="Fsy-h0-lce"/>
+                            <constraint firstItem="gUU-e3-Krh" firstAttribute="leading" secondItem="Lq6-0W-wTg" secondAttribute="leading" constant="20" symbolic="YES" id="HSp-gf-Myp"/>
+                            <constraint firstItem="gUU-e3-Krh" firstAttribute="top" secondItem="Lq6-0W-wTg" secondAttribute="top" constant="20" symbolic="YES" id="ebe-98-9Ns"/>
+                            <constraint firstItem="YdH-3D-J98" firstAttribute="leading" secondItem="Lq6-0W-wTg" secondAttribute="leading" constant="22" id="kmv-6W-VVa"/>
+                            <constraint firstItem="YdH-3D-J98" firstAttribute="top" secondItem="gUU-e3-Krh" secondAttribute="bottom" constant="8" symbolic="YES" id="lDn-0E-kYH"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="colorBackground">
+                                <color key="value" red="0.67529158410000001" green="1" blue="0.64978884110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <customObject id="GJW-0i-zgp" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="18"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4rb-aq-ElN">
+            <objects>
+                <viewController storyboardIdentifier="files" id="mUV-Yz-4iL" sceneMemberID="viewController">
+                    <view key="view" id="GZ3-Rj-AF3" customClass="ColorBackgroundView" customModule="InspectorLab" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cmK-0y-ERA">
+                                <rect key="frame" x="34" y="234" width="32" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Files" id="Z8U-iV-Vqr">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72Y-KI-9Z1">
+                                <rect key="frame" x="8" y="198" width="61" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Text Files" id="gqN-PG-evz">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Afa-UP-TT3">
+                                <rect key="frame" x="8" y="174" width="61" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Text Files" id="ssR-oG-BsY">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MR7-HD-YL1">
+                                <rect key="frame" x="8" y="150" width="73" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Image Files" id="2fD-FQ-3FD">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="MR7-HD-YL1" firstAttribute="leading" secondItem="GZ3-Rj-AF3" secondAttribute="leading" constant="10" id="0UD-XY-BKL"/>
+                            <constraint firstItem="MR7-HD-YL1" firstAttribute="top" secondItem="Afa-UP-TT3" secondAttribute="bottom" constant="8" symbolic="YES" id="37D-b8-Baa"/>
+                            <constraint firstItem="72Y-KI-9Z1" firstAttribute="top" secondItem="cmK-0y-ERA" secondAttribute="bottom" constant="20" id="Mbh-LX-lpl"/>
+                            <constraint firstItem="cmK-0y-ERA" firstAttribute="centerX" secondItem="GZ3-Rj-AF3" secondAttribute="centerX" id="abt-xc-qeC"/>
+                            <constraint firstItem="cmK-0y-ERA" firstAttribute="top" secondItem="GZ3-Rj-AF3" secondAttribute="top" constant="20" symbolic="YES" id="cbi-8e-Vya"/>
+                            <constraint firstItem="72Y-KI-9Z1" firstAttribute="leading" secondItem="GZ3-Rj-AF3" secondAttribute="leading" constant="10" id="eww-TN-aPf"/>
+                            <constraint firstItem="Afa-UP-TT3" firstAttribute="top" secondItem="72Y-KI-9Z1" secondAttribute="bottom" constant="8" symbolic="YES" id="p95-nz-VR2"/>
+                            <constraint firstItem="Afa-UP-TT3" firstAttribute="leading" secondItem="GZ3-Rj-AF3" secondAttribute="leading" constant="10" id="sCS-Jh-iLV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="XDr-UJ-JnD" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="421"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="NSActionTemplate" width="15" height="15"/>
+        <image name="NSFolder" width="32" height="32"/>
+        <image name="NSInfo" width="32" height="32"/>
         <image name="NSNetwork" width="32" height="32"/>
     </resources>
 </document>
