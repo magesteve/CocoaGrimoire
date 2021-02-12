@@ -354,6 +354,41 @@
                                     </items>
                                 </menu>
                             </menuItem>
+                            <menuItem title="Tasks" id="ObR-rj-jZL">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Tasks" id="EPF-xD-iaB">
+                                    <items>
+                                        <menuItem title="Open URL Apple" id="8ke-Uc-ocF" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/CocoaGrimoire"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="Open Legal Notice" id="ZMO-1c-SuI" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="legal"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="mvH-Iu-1ZR"/>
+                                        <menuItem title="Save Test TXT File" id="M1h-wT-nkM" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/SwiftSpellBook.git"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                        <menuItem title="Examine TXT File" id="WI5-Il-jgX" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/CocoaSpellBook.git"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
                             <menuItem title="Web" id="Lym-xF-w5X">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Web" id="LUS-t0-FBp">
@@ -365,6 +400,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://github.com/magesteve/CocoaGrimoire"/>
                                             </userDefinedRuntimeAttributes>
                                         </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="BTJ-ku-FPm"/>
                                         <menuItem title="SwiftSpellBook" id="vCr-2U-RtC" customClass="SlamTaskMenuItem" customModule="SlamTaskSpellBook">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -748,6 +784,24 @@
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
                         <value key="minSize" type="size" width="480" height="270"/>
+                        <toolbar key="toolbar" implicitIdentifier="5C217838-6521-4F72-BE60-EC012E9FF72C" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="nGU-xx-eUx">
+                            <allowedToolbarItems>
+                                <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="XiL-sf-bhQ"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="qe0-ev-uYm"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="n0S-yf-gL0"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="SPh-Md-tyo"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="0qh-zJ-lHw"/>
+                                <toolbarItem implicitItemIdentifier="3E19704B-7333-4D73-AE09-67829F29BFA6" label="Apple" paletteLabel="Apple" tag="-1" image="NSNetwork" sizingBehavior="auto" id="y6c-za-DZ8" customClass="SlamTaskToolbarItem" customModule="SlamTaskSpellBook">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="web"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="slamWord" value="https://www.apple.com"/>
+                                    </userDefinedRuntimeAttributes>
+                                </toolbarItem>
+                            </allowedToolbarItems>
+                            <defaultToolbarItems>
+                                <toolbarItem reference="y6c-za-DZ8"/>
+                            </defaultToolbarItems>
+                        </toolbar>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
@@ -772,7 +826,7 @@
                                 <rect key="frame" x="13" y="9" width="454" height="255"/>
                                 <font key="font" metaFont="system"/>
                                 <tabViewItems>
-                                    <tabViewItem label="Functions &amp; Alerts" identifier="" id="91r-jS-nvX">
+                                    <tabViewItem label="Tasks" identifier="" id="91r-jS-nvX">
                                         <view key="view" id="oPA-8V-gYV">
                                             <rect key="frame" x="10" y="33" width="434" height="209"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1068,4 +1122,7 @@
             <point key="canvasLocation" x="35" y="1012"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="NSNetwork" width="32" height="32"/>
+    </resources>
 </document>

@@ -47,6 +47,10 @@ class AppDelegate: NSObject, SlamTaskAppProtocol {
             CocoaSpellBook.openURL(info.word)
         }))
 
+        add(task:SlamTask(title: "legal", action: { info in
+            CocoaSpellBook.openBundledFile("Legal.rtf")
+        }))
+
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

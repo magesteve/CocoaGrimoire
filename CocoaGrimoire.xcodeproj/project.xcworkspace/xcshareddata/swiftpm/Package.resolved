@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/magesteve/CocoaSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "1cf9d54a227d3f30c9387a6925e70079b184c56c",
+          "revision": "54bf306f37a1b34594c1cf1213442232586ca029",
           "version": "1.0.8"
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/magesteve/SlamTaskSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "cf030e1070b461154995ca0d1dcd0fecdf647048",
+          "revision": "6c1a64fd5e469ef60eaecd8020241185cc019890",
           "version": "1.0.4"
         }
       },
