@@ -25,8 +25,8 @@ class GrimoireViewController: NSViewController, SlamTaskBossProtocol  {
 
     // MARK: - Variables
     
-    var rightInspector: InspectorStruct?
-    var leftInspector: InspectorStruct?
+    var rightInspector: InspectorSpell?
+    var leftInspector: InspectorSpell?
 
 
     // MARK: - SlamTaskAppProtocol Requirement
@@ -61,7 +61,7 @@ class GrimoireViewController: NSViewController, SlamTaskBossProtocol  {
 
         // MARK: - Setup Inspector
         
-        rightInspector = InspectorStruct(viewController: self, mainView: self.mainView, sideView: sideView)
+        rightInspector = InspectorSpell(viewController: self, mainView: self.mainView, sideView: sideView)
         
         if let vc = NSStoryboard.main?.instantiateController(withIdentifier: "details") as? NSViewController {
             rightInspector?.add(ident: "details", viewController: vc)
@@ -75,7 +75,7 @@ class GrimoireViewController: NSViewController, SlamTaskBossProtocol  {
             rightInspector?.add(ident: "developer", viewController: vc)
         }
 
-        leftInspector = InspectorStruct(kind: .left, viewController: self, mainView: self.mainView, sideView: fileView)
+        leftInspector = InspectorSpell(kind: .left, viewController: self, mainView: self.mainView, sideView: fileView)
         
         if let vc = NSStoryboard.main?.instantiateController(withIdentifier: "files") as? NSViewController {
             leftInspector?.add(ident: "files", viewController: vc)
