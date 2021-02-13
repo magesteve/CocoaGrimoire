@@ -15,7 +15,7 @@ import PreferencesSpellBook
 // MARK: - AppDelegate Class
 
 @main
-class AppDelegate: NSObject, SlamTaskAppProtocol {
+class AppDelegate: NSObject, SlamTaskAppProtocol, PreferencesAppController {
     
     // MARK: - SlamTaskAppProtocol Requirement
     

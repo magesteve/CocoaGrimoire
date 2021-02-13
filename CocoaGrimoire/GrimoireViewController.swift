@@ -49,12 +49,12 @@ class GrimoireViewController: NSViewController, SlamTaskBossProtocol  {
             }
         }))
         add(task:SlamTask(title: "tapleft", action: { [weak self] info in
-            guard let strongSelf = self, var inspector = strongSelf.leftInspector else { return }
+            guard let strongSelf = self, let inspector = strongSelf.leftInspector else { return }
             
             inspector.tap(ident: info.word)
         }))
         add(task:SlamTask(title: "tapright", action: { [weak self] info in
-            guard let strongSelf = self, var inspector = strongSelf.rightInspector else { return }
+            guard let strongSelf = self, let inspector = strongSelf.rightInspector else { return }
             
             inspector.tap(ident: info.word)
         }))
