@@ -38,7 +38,7 @@ class AppDelegate: NSObject, SlamTaskAppProtocol {
         }
 
         if let vc = NSStoryboard.main?.instantiateController(withIdentifier: "sound") as? NSViewController {
-            PreferencesItem.addItem(ident: "sound", title: "Sound", imageName: NSImage.computerName, viewController: vc, width: 400, height: 300)
+            PreferencesItem.addItem(ident: "sound", title: "Sound", imageName: NSImage.computerName, viewController: vc, width: 400, height: 150)
         }
 
         // MARK: - Setup Tasks
