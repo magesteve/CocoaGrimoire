@@ -19,17 +19,17 @@ A Macintosh example program using the various SpellBook swift package published 
     
 ## SpellBooks
 
-SpellBooks are various swift package created for Mac & iOS development.  Rather than have demo app for each spellbook, CocoaGrimoire provides examples of the code use for all the packages.  Check the specific SpellBook for further information, including inline documentation for each call.
+SpellBooks are various swift package created for Mac & iOS development.  Rather than have a demo app for each spellbook, CocoaGrimoire provides examples of the code use for all the packages.  Check the specific SpellBook for further information, including inline documentation for each call.
 
 ### SwiftSpellBook
 
-Swift Package of useful tools for Swift Development on any platform.  CocoaGrimoire has Unit Tests for most of the featuers.
+Swift Package of useful tools for Swift Development on any platform.  CocoaGrimoire has Unit Tests for most of the features.
 
     https://github.com/magesteve/SwiftSpellBook.git
 
 ### CocoaSpellBook
 
-Swift Package of useful tools for Swift Development on Macintosh (Cocoa) Platforms.  The CocoaSpellBook window displays various funcitons and alerts are invoked, as well as background color views.
+Swift Package of useful tools for Swift Development on Macintosh (Cocoa) Platforms.  The CocoaSpellBook window displays various funcitons and alerts are invoked, as well as background color views.  The tasks are setup to invoke a number of the CocoaSpellBook features.
 
     https://github.com/magesteve/CocoaSpellBook.git
 
