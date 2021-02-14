@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/magesteve/InspectorSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "fad3dbd32ce62c486154af1c597250b013fae79d",
-          "version": "1.0.0"
+          "revision": "6c33919045b2a7a4941288abfbc4aa56a80d8f26",
+          "version": "1.0.1"
         }
       },
       {
@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/magesteve/PreferencesSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "5baad5b5431b2b95f27748688886de0ac911e360",
+          "revision": "61f4996d5a9b8c142507a9dfbbf4f0e987f88a4e",
           "version": "1.0.3"
         }
       },

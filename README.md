@@ -33,6 +33,12 @@ Swift Package of useful tools for Swift Development on Macintosh (Cocoa) Platfor
 
     https://github.com/magesteve/CocoaSpellBook.git
 
+### InspectorSpellBook
+
+Swift Package to provide standard left & right side panels (commonly used as Inspectors) for Macintosh App Development (Cocoa).  
+
+    https://github.com/magesteve/InspectorSpellBook.git
+
 ### PreferencesSpellBook
 
 Swift Package to provide standard Preference window functionality. The AppDelegate sets up the Preference window, as well as has the action to display it.  The Preference panes are for display purposes only (no functionality).
