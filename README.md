@@ -39,6 +39,14 @@ Swift Package to provide standard left & right side panels (commonly used as Ins
 
     https://github.com/magesteve/InspectorSpellBook.git
 
+<img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Inpector-Example-A.png">
+    
+<p align="center">Closed Inspectors</p>
+
+<img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Inpector-Example-B.png">
+    
+<p align="center">Open Inspectors</p>
+
 ### PreferencesSpellBook
 
 Swift Package to provide standard Preference window functionality. The AppDelegate sets up the Preference window, as well as has the action to display it.  The Preference panes are for display purposes only (no functionality).
