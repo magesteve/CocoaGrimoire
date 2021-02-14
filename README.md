@@ -33,19 +33,11 @@ Swift Package of useful tools for Swift Development on Macintosh (Cocoa) Platfor
 
     https://github.com/magesteve/CocoaSpellBook.git
 
-### InspectorSpellBook
+### SlamTaskSpellBook
 
-Swift Package to provide standard left & right side panels (commonly used as Inspectors) for Macintosh App Development (Cocoa).  
+Swift Package of Closure based Tasks, used by Menus, Toolbars & Buttons for Macintosh App development (Cocoa).  AppsController, ViewController & WindowControllers can register specific Tasks. New Buttons, MenuItems & ToolbarItems which can be set within Interface Builder (but do not require associated IBAction) will then use the Tasks closures to perform a task and update their appearance.
 
-    https://github.com/magesteve/InspectorSpellBook.git
-
-<img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Inpector-Example-A.png">
-    
-<p align="center">Closed Inspectors</p>
-
-<img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Inpector-Example-B.png">
-    
-<p align="center">Open Inspectors</p>
+    https://github.com/magesteve/SlamTaskSpellBook.git
 
 ### PreferencesSpellBook
 
@@ -53,11 +45,27 @@ Swift Package to provide standard Preference window functionality. The AppDelega
 
     https://github.com/magesteve/PreferencesSpellBook.git
 
-### SlamTaskSpellBook
+<p align="center"><img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Preferences-Example-A.png"></p>
+    
+<p align="center">Preferences Example 1</p>
 
-Swift Package of Closure based Tasks, used by Menus, Toolbars & Buttons for Macintosh App development (Cocoa).  AppsController, ViewController & WindowControllers can register specific Tasks. New Buttons, MenuItems & ToolbarItems which can be set within Interface Builder (but do not require associated IBAction) will then use the Tasks closures to perform a task and update their appearance.
+<p align="center"><img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Preferences-Example-B.png"></p>
+    
+<p align="center">Preferences Example 2</p>
 
-    https://github.com/magesteve/SlamTaskSpellBook.git
+### InspectorSpellBook
+
+Swift Package to provide standard left & right side panels (commonly used as Inspectors) for Macintosh App Development (Cocoa).  
+
+    https://github.com/magesteve/InspectorSpellBook.git
+
+<p align="center"><img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Inpector-Example-A.png"></p>
+    
+<p align="center">Closed Inspectors</p>
+
+<p align="center"><img src="https://github.com/magesteve/CocoaGrimoire/blob/main/CocoaGrimoireExampleArt/Inpector-Example-B.png"></p>
+    
+<p align="center">Open Inspectors</p>
 
 ## License
 
