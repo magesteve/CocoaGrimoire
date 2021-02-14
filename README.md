@@ -19,7 +19,7 @@ A Macintosh example program using the various SpellBook swift package published 
     
 ## SpellBooks
 
-SpellBooks are various swift package created for Mac & iOS development.  Rather than have demo app for each spellbook, CocoaGrimoire provides examples of the code use for all the packages.  Check the SpellBook for inline documentation of each call.
+SpellBooks are various swift package created for Mac & iOS development.  Rather than have demo app for each spellbook, CocoaGrimoire provides examples of the code use for all the packages.  Check the specific SpellBook for further information, including inline documentation for each call.
 
 ### SwiftSpellBook
 
@@ -41,7 +41,7 @@ Swift Package of Closure based Tasks, used by Menus, Toolbars & Buttons for Maci
 
 ### PreferencesSpellBook
 
-Swift Package to provide standard Preference window functionality. The AppDelegate sets up the Preference window, as well as has the action to display it.  The Preference panes are for display purposes only (no functionality).
+Swift Package to provide standard Preference window functionality. The AppDelegate sets up the Preference window, as well as has the action to display it.  
 
     https://github.com/magesteve/PreferencesSpellBook.git
 
@@ -55,7 +55,7 @@ Swift Package to provide standard Preference window functionality. The AppDelega
 
 ### InspectorSpellBook
 
-Swift Package to provide standard left & right side panels (commonly used as Inspectors) for Macintosh App Development (Cocoa).  
+Swift Package to provide standard left & right side panels (commonly used as Inspectors) for Macintosh App Development (Cocoa). They will animate in and out, resizing the main view when needed. The GrimoireViewController sets up the Inspectors, then a simple tap() function animated them.
 
     https://github.com/magesteve/InspectorSpellBook.git
 
