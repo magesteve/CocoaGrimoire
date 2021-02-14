@@ -54,6 +54,8 @@
 		41668A2D25D4F68E00FCBC8A /* CocoaGrimoireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaGrimoireUITests.swift; sourceTree = "<group>"; };
 		41668A2F25D4F68E00FCBC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41668A4425D4FD0A00FCBC8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41DAF69425D99B7A001A8D43 /* Inpector-Example-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Inpector-Example-A.png"; sourceTree = "<group>"; };
+		41DAF69525D99B7A001A8D43 /* Inpector-Example-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Inpector-Example-B.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				41668A4425D4FD0A00FCBC8A /* README.md */,
 				4129047025D64FD400156364 /* Legal.rtf */,
+				41DAF69325D99B49001A8D43 /* CocoaGrimoireExampleArt */,
 				41668A0E25D4F68C00FCBC8A /* CocoaGrimoire */,
 				41668A2125D4F68E00FCBC8A /* CocoaGrimoireTests */,
 				41668A2C25D4F68E00FCBC8A /* CocoaGrimoireUITests */,
@@ -137,6 +140,15 @@
 				41668A2F25D4F68E00FCBC8A /* Info.plist */,
 			);
 			path = CocoaGrimoireUITests;
+			sourceTree = "<group>";
+		};
+		41DAF69325D99B49001A8D43 /* CocoaGrimoireExampleArt */ = {
+			isa = PBXGroup;
+			children = (
+				41DAF69425D99B7A001A8D43 /* Inpector-Example-A.png */,
+				41DAF69525D99B7A001A8D43 /* Inpector-Example-B.png */,
+			);
+			path = CocoaGrimoireExampleArt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
