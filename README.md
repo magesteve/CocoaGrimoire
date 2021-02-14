@@ -5,7 +5,7 @@
 [![Xcode](https://img.shields.io/badge/Xcode-12-blue.svg)](https://developer.apple.com/xcode)
 [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A Macintosh example program using the PreferencesSpellBook swift package.
+A Macintosh example program using the various SpellBook swift package published by the author.
 
 ### Requirements
 
