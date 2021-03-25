@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/magesteve/CocoaSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "54bf306f37a1b34594c1cf1213442232586ca029",
-          "version": "1.0.8"
+          "revision": "025bef9b74be1f863ea0873ae1474940a5e6866e",
+          "version": "1.1.0"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/magesteve/InspectorSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "6c33919045b2a7a4941288abfbc4aa56a80d8f26",
-          "version": "1.0.1"
+          "revision": "32e716a4ad444a87097e4c7dd49b39fab90a1caf",
+          "version": "1.0.2"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/magesteve/PreferencesSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "61f4996d5a9b8c142507a9dfbbf4f0e987f88a4e",
-          "version": "1.0.3"
+          "revision": "3a313fa91e43854b751e0249bf56e0ea44060a9b",
+          "version": "1.0.4"
         }
       },
       {
@@ -33,8 +33,8 @@
         "repositoryURL": "https://github.com/magesteve/SlamTaskSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "6c1a64fd5e469ef60eaecd8020241185cc019890",
-          "version": "1.0.4"
+          "revision": "9afa228164ef5356ee3d8786331033397a4973b6",
+          "version": "1.0.5"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/magesteve/SwiftSpellBook.git",
         "state": {
           "branch": null,
-          "revision": "77d35cea2ecaaeb74fbdea968e32c9c82dae1836",
-          "version": "1.0.9"
+          "revision": "ef73460bf05a20b767758f3b739d0b78be362bef",
+          "version": "1.1.0"
         }
       }
     ]
