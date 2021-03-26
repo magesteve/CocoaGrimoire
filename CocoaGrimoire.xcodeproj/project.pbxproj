@@ -19,6 +19,7 @@
 		41668A5225D4FED600FCBC8A /* CocoaSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A5125D4FED600FCBC8A /* CocoaSpellBook */; };
 		41668A5B25D5082F00FCBC8A /* PreferencesSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A5A25D5082F00FCBC8A /* PreferencesSpellBook */; };
 		41668A6125D5E76D00FCBC8A /* SlamTaskSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 41668A6025D5E76D00FCBC8A /* SlamTaskSpellBook */; };
+		4199BAF1260DB33E004259A1 /* SlamCocoaSpellBook in Frameworks */ = {isa = PBXBuildFile; productRef = 4199BAF0260DB33E004259A1 /* SlamCocoaSpellBook */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 				41668A5B25D5082F00FCBC8A /* PreferencesSpellBook in Frameworks */,
 				41668A5225D4FED600FCBC8A /* CocoaSpellBook in Frameworks */,
 				41668A4025D4FCE500FCBC8A /* SwiftSpellBook in Frameworks */,
+				4199BAF1260DB33E004259A1 /* SlamCocoaSpellBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +179,7 @@
 				41668A5A25D5082F00FCBC8A /* PreferencesSpellBook */,
 				41668A6025D5E76D00FCBC8A /* SlamTaskSpellBook */,
 				4129047925D65AA800156364 /* InspectorSpellBook */,
+				4199BAF0260DB33E004259A1 /* SlamCocoaSpellBook */,
 			);
 			productName = CocoaGrimoire;
 			productReference = 41668A0C25D4F68C00FCBC8A /* CocoaGrimoire.app */;
@@ -255,6 +258,7 @@
 				41668A5925D5082F00FCBC8A /* XCRemoteSwiftPackageReference "PreferencesSpellBook" */,
 				41668A5F25D5E76C00FCBC8A /* XCRemoteSwiftPackageReference "SlamTaskSpellBook" */,
 				4129047825D65AA800156364 /* XCRemoteSwiftPackageReference "InspectorSpellBook" */,
+				4199BAEF260DB33E004259A1 /* XCRemoteSwiftPackageReference "SlamCocoaSpellBook" */,
 			);
 			productRefGroup = 41668A0D25D4F68C00FCBC8A /* Products */;
 			projectDirPath = "";
@@ -670,6 +674,14 @@
 				minimumVersion = 1.0.4;
 			};
 		};
+		4199BAEF260DB33E004259A1 /* XCRemoteSwiftPackageReference "SlamCocoaSpellBook" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/SlamCocoaSpellBook.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -697,6 +709,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 41668A5F25D5E76C00FCBC8A /* XCRemoteSwiftPackageReference "SlamTaskSpellBook" */;
 			productName = SlamTaskSpellBook;
+		};
+		4199BAF0260DB33E004259A1 /* SlamCocoaSpellBook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4199BAEF260DB33E004259A1 /* XCRemoteSwiftPackageReference "SlamCocoaSpellBook" */;
+			productName = SlamCocoaSpellBook;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
