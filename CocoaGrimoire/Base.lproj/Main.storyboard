@@ -810,7 +810,7 @@
                     <window key="window" title="CocoaSpellBook" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" resizable="YES"/>
                         <rect key="contentRect" x="196" y="240" width="640" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
                         <value key="minSize" type="size" width="480" height="270"/>
                         <toolbar key="toolbar" implicitIdentifier="5C217838-6521-4F72-BE60-EC012E9FF72C" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="nGU-xx-eUx">
                             <allowedToolbarItems>
@@ -1015,13 +1015,28 @@
                                                                 <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="opentext"/>
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
+                                                        <button verticalHuggingPriority="750" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="e3E-z1-iAk" customClass="SlamTaskButton" customModule="SlamTaskSpellBook">
+                                                            <rect key="frame" x="10" y="65" width="124" height="32"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="110" id="Hjp-JA-jNE"/>
+                                                            </constraints>
+                                                            <buttonCell key="cell" type="push" title="Forms" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZlM-hS-qyb">
+                                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="slamTitle" value="forms"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eJC-BW-uAY" secondAttribute="trailing" constant="20" symbolic="YES" id="1wV-Gi-A0J"/>
+                                                        <constraint firstItem="e3E-z1-iAk" firstAttribute="centerX" secondItem="Gdf-5F-h6X" secondAttribute="centerX" id="2AC-uw-sfV"/>
                                                         <constraint firstItem="Gdf-5F-h6X" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="4SE-xT-EGC"/>
                                                         <constraint firstItem="Gdf-5F-h6X" firstAttribute="top" secondItem="BKb-gJ-zLt" secondAttribute="bottom" constant="12" symbolic="YES" id="CsB-Sg-428"/>
                                                         <constraint firstItem="eJC-BW-uAY" firstAttribute="top" secondItem="oPA-8V-gYV" secondAttribute="top" constant="20" id="EsK-mP-lkW"/>
                                                         <constraint firstItem="BKb-gJ-zLt" firstAttribute="top" secondItem="eJC-BW-uAY" secondAttribute="bottom" constant="12" symbolic="YES" id="N8v-0Z-aN2"/>
+                                                        <constraint firstItem="e3E-z1-iAk" firstAttribute="top" secondItem="Gdf-5F-h6X" secondAttribute="bottom" constant="12" symbolic="YES" id="PaI-pz-zYI"/>
                                                         <constraint firstItem="BKb-gJ-zLt" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="p9M-FJ-NR0"/>
                                                         <constraint firstItem="eJC-BW-uAY" firstAttribute="leading" secondItem="oPA-8V-gYV" secondAttribute="leading" constant="17" id="ykx-za-ehz"/>
                                                     </constraints>

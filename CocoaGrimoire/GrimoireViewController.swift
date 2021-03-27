@@ -58,6 +58,9 @@ class GrimoireViewController: NSViewController, SlamTaskBossProtocol  {
             
             inspector.tap(ident: info.word)
         }))
+        add(task:SlamTask(title: "forms", action: { info in
+            
+        }))
 
         // MARK: - Setup Inspector
         
